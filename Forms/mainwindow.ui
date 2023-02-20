@@ -27,8 +27,7 @@
     <property name="title">
      <string>图片识别</string>
     </property>
-    <addaction name="inputAction"/>
-    <addaction name="trainStartAction_2"/>
+    <addaction name="picAction"/>
    </widget>
    <widget class="QMenu" name="deviceMenu">
     <property name="title">
@@ -56,9 +55,9 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="inputAction">
+  <action name="picAction">
    <property name="text">
-    <string>导入图片</string>
+    <string>图片识别</string>
    </property>
   </action>
   <action name="videoFaceDetectAction">

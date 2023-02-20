@@ -26,13 +26,28 @@ CONFIG += c++11
 
 SOURCES += \
         Sources/main.cpp \
-        Sources/mainwindow.cpp
+        Sources/mainwindow.cpp \
+        Sources/wolcome.cpp \
+        Sources/inputpic.cpp \
+        Sources/videofacedetect2.cpp \
+        Sources/help.cpp \
+        Sources/videofacerecognit2.cpp
 
 HEADERS += \
-        Headers/mainwindow.h
+        Headers/mainwindow.h \
+        Headers/wolcome.h \
+        Headers/inputpic.h \
+        Headers/videofacedetect2.h \
+        Headers/help.h \
+        Headers/videofacerecognit2.h
 
 FORMS += \
-        Forms/mainwindow.ui
+        Forms/mainwindow.ui \
+        Forms/wolcome.ui \
+        Forms/inputpic.ui \
+        Forms/videofacedetect2.ui \
+        Forms/help.ui \
+        Forms/videofacerecognit2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
