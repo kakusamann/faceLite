@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="fileMenu">
+    <property name="title">
+     <string>图片识别</string>
+    </property>
+    <addaction name="inputAction"/>
+    <addaction name="trainStartAction_2"/>
+   </widget>
+   <widget class="QMenu" name="deviceMenu">
+    <property name="title">
+     <string>视频识别</string>
+    </property>
+    <addaction name="videoFaceDetectAction"/>
+    <addaction name="videoFaceReconitionAction_2"/>
+   </widget>
+   <widget class="QMenu" name="helpMenu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="helperAction"/>
+   </widget>
+   <addaction name="fileMenu"/>
+   <addaction name="deviceMenu"/>
+   <addaction name="helpMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="inputAction">
+   <property name="text">
+    <string>导入图片</string>
+   </property>
+  </action>
+  <action name="videoFaceDetectAction">
+   <property name="text">
+    <string>人脸检测</string>
+   </property>
+  </action>
+  <action name="trainStartAction">
+   <property name="text">
+    <string>识别--导入图片</string>
+   </property>
+  </action>
+  <action name="helperAction">
+   <property name="text">
+    <string>操作指南</string>
+   </property>
+  </action>
+  <action name="trainStartShotAction">
+   <property name="text">
+    <string>识别--截图</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>模型训练</string>
+   </property>
+  </action>
+  <action name="trainStartAction_2">
+   <property name="text">
+    <string>识别--导入图片</string>
+   </property>
+  </action>
+  <action name="videoFaceReconitionAction_2">
+   <property name="text">
+    <string>人脸识别</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
