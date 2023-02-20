@@ -4,7 +4,7 @@
 * QT版本：5.12.0
 * OpenCV版本：4.7.0
 
-![开始界面](https://user-images.githubusercontent.com/68045911/220116974-34faca15-0312-4aca-a0af-0f880c27a774.png)
+  ![开始界面](https://user-images.githubusercontent.com/68045911/220116974-34faca15-0312-4aca-a0af-0f880c27a774.png)
 ## 主要功能
 * 导入图片，对图片进行***人脸检测***；
   * QFileDialog
