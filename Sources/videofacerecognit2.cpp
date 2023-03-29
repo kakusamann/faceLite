@@ -88,7 +88,7 @@ void videoFaceRecognit2::openCamaraReco(){
     {
          qDebug("err");
     }
-    timerReco->start(50);              // 开始计时，20ms获取一帧
+    timerReco->start(50);              // 开始计时，50ms获取一帧
 }
 
 /*读取面部信息--面部识别*/
